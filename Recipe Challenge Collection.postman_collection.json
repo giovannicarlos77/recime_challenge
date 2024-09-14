@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "67b8120e-cbd8-4de7-bfc7-b79958147b3c",
+		"name": "Recipe Challenge Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33626170"
+	},
+	"item": [
+		{
+			"name": "GET TRENDING RECIPES",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/recipes/trending",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"recipes",
+						"trending"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET TRENDING RECIPES W/ DIFFICULTY",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/recipes/trending/filter?difficulty=easy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"recipes",
+						"trending",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "difficulty",
+							"value": "easy"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
