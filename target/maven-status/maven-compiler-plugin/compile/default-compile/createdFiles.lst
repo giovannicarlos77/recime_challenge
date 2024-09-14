@@ -1,9 +1,0 @@
-com\recime\challenge\model\TrendingRecipe.class
-com\recime\challenge\service\RecipeService$2.class
-com\recime\challenge\RecimeChallengeApplication.class
-com\recime\challenge\configuration\WireMockConfig.class
-com\recime\challenge\service\RecipeService.class
-com\recime\challenge\configuration\AppConfig.class
-com\recime\challenge\service\WireMockInitializerService.class
-com\recime\challenge\service\RecipeService$1.class
-com\recime\challenge\controller\TrendingRecipeController.class
